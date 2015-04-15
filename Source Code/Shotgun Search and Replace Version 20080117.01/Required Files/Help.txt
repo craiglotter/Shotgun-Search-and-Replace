@@ -1,0 +1,12 @@
+To start a search and replace operation you first need to enter a search and replace term in their respective textboxes. Once that is done, simply select your root folder which is to be recursively passed by clicking on the Browse button.
+
+You can also effect the way in which the case sensitive search is conducted by toggling various case options under the Term Modifiers banner. For instance, should your Search and Replace terms be inf4015z and inf4015w respectively, you could modify the search by ticking the UPPERCASE option. This means that all instances of inf4015z will be replaced by inf4015w and all instances of INF4015Z will be replaced by INF4015W.
+
+The Files to Examine section shows you what filetypes will be scanned by the application. To modify these values you will need to alter the config.sav file located in the application folder. Look for this line and change accordingly: SSR_FileTypes=.asp;.htm;.html;.php;.inc
+
+Once you have finished tweaking all your options, simply hit the Start button to start the operation. The Cancel button will cancel an operation in progress while the Minimize Window label that appears will allow you to minimize the application.
+
+The about and help menu items brings up the about and help dialog screens respectively. The AutoUpdate option checks for any updates for this application.
+
+
+-- Last Updated: 18/01/2008 --
